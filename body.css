@@ -1,0 +1,50 @@
+.titre_page{
+    text-align: center;
+    position:sticky;
+    top:15px;
+    z-index: 3;
+    font-size: 50px;
+    margin:10px;
+    margin-inline: 40%;
+}
+.contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 90px;
+    display: flex;
+}
+/*Contenu de des paragraphes*/
+.paragraphe{
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 75%);
+    transition: .1s;
+    border: 3px solid #fff;
+    width: 35em;
+    height: 15em;
+    margin-block: 3.3px;
+    margin-inline: 7.34px;
+    padding:10px;
+    z-index: 1;
+}
+.paragraphe h2{
+    transition: 0.2s;
+    font-size: 30px;
+    text-align: center;
+}
+.paragraphe p{
+    font-size: 20px;
+}
+.paragraphe li{
+    font-size: 20px;
+}
+.paragraphe:hover{
+    z-index: 1;
+    scale:105%;
+    background-color: #222;
+    border-color: #0f0;
+}
+.paragraphe:hover h2{
+    color: #0ff;
+}
