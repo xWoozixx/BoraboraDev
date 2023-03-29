@@ -12,7 +12,7 @@ body{
 }
 body *{
     /*border: 1px solid red;/*affiche toutes les boîtes*/
-    font-family:"lato";
+    font-family: 'Lato', sans-serif;
     color:#fff;
     padding: 0px;
     margin: 0px;
