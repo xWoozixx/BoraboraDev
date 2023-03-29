@@ -36,6 +36,9 @@
 .paragraphe li{
     font-size: 20px;
 }
+.paragraphe a{
+    color: #0f0;
+}
 .paragraphe:hover{
     z-index: 1;
     scale:105%;
@@ -44,4 +47,52 @@
 }
 .paragraphe:hover h2{
     color: #0ff;
+}
+.paragraphe:hover a{
+    color: #0f0;
+}
+.paragraphe a:hover{
+    color:#0ff;
+}
+.paragraphe_important{
+    z-index: 0;
+    background-color: rgba(25, 25, 25, 100%);
+    transition: .1s;
+    border: 3px solid #0f0;
+    width: 35em;
+    height: 15em;
+    margin-block: 3.3px;
+    margin-inline: 7.5px;
+    padding:10px;
+    z-index: 1;
+}
+.paragraphe_important h2{
+    color: #0ff;
+    transition: 0.2s;
+    font-size: 30px;
+    text-align: center;
+}
+.paragraphe_important p{
+    font-size: 20px;
+}
+.paragraphe_important li{
+    font-size: 20px;
+}
+.paragraphe_important a{
+    color: #0f0;
+}
+.paragraphe_important:hover{
+    z-index: 1;
+    scale:105%;
+    background-color: #222;
+    border-color: #fff;
+}
+.paragraphe_important:hover h2{
+    color: #0f0;
+}
+.paragraphe_important:hover a{
+    color: #0ff;
+}
+.paragraphe_important:hover a:hover{
+    color: #0f0;
 }
