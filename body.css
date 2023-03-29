@@ -37,7 +37,7 @@
     font-size: 20px;
 }
 .paragraphe a{
-    color: #0f0;
+    color: #0ff;
 }
 .paragraphe:hover{
     z-index: 1;
@@ -48,11 +48,8 @@
 .paragraphe:hover h2{
     color: #0ff;
 }
-.paragraphe:hover a{
-    color: #0f0;
-}
 .paragraphe a:hover{
-    color:#0ff;
+    color:#0f0;
 }
 .paragraphe_important{
     z-index: 0;
@@ -79,19 +76,13 @@
     font-size: 20px;
 }
 .paragraphe_important a{
-    color: #0f0;
+    color: #0ff;
 }
 .paragraphe_important:hover{
     z-index: 1;
     scale:105%;
     background-color: #222;
     border-color: #fff;
-}
-.paragraphe_important:hover h2{
-    color: #0f0;
-}
-.paragraphe_important:hover a{
-    color: #0ff;
 }
 .paragraphe_important:hover a:hover{
     color: #0f0;
