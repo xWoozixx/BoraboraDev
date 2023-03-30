@@ -82,7 +82,7 @@
     z-index: 1;
     scale:105%;
     background-color: #222;
-    border-color: #fff;
+    border-color: #0ff;
 }
 .paragraphe_important:hover a:hover{
     color: #0f0;
