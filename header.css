@@ -31,7 +31,8 @@ header *{
     color:#0ff;
 }
 .logo:hover{
-    scale:105%
+    scale:105%;
+    border-color: #0f0;
 }
 .logo:hover *{
     color:#0f0;
