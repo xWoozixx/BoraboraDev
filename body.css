@@ -25,18 +25,24 @@
     padding:10px;
     z-index: 1;
 }
-.paragraphe h2{
+.paragraphe > h2{
     transition: 0.2s;
     font-size: 30px;
     text-align: center;
 }
-.paragraphe p{
+.paragraphe > p{
     font-size: 20px;
 }
-.paragraphe li{
+.paragraphe ul li{
     font-size: 20px;
 }
-.paragraphe a{
+a.paragraphe > ul > li{
+    font-weight: normal;
+}
+a.paragraphe > p{
+    font-weight: normal;
+}
+.paragraphe > a{
     color: #0ff;
 }
 .paragraphe:hover{
@@ -45,10 +51,10 @@
     background-color: #222;
     border-color: #0f0;
 }
-.paragraphe:hover h2{
+.paragraphe:hover > h2{
     color: #0ff;
 }
-.paragraphe a:hover{
+.paragraphe > a:hover{
     color:#0f0;
 }
 .paragraphe_important{
@@ -63,19 +69,19 @@
     padding:10px;
     z-index: 1;
 }
-.paragraphe_important h2{
+.paragraphe_important > h2{
     color: #0ff;
     transition: 0.2s;
     font-size: 30px;
     text-align: center;
 }
-.paragraphe_important p{
+.paragraphe_important > p{
     font-size: 20px;
 }
-.paragraphe_important li{
+.paragraphe_important > li{
     font-size: 20px;
 }
-.paragraphe_important a{
+.paragraphe_important > a{
     color: #0ff;
 }
 .paragraphe_important:hover{
@@ -84,6 +90,6 @@
     background-color: #222;
     border-color: #0ff;
 }
-.paragraphe_important:hover a:hover{
+.paragraphe_important:hover > a:hover{
     color: #0f0;
 }
