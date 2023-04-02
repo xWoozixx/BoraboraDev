@@ -33,11 +33,13 @@ header *{
 .logo:hover{
     scale:105%;
     border-color: #0f0;
+    background-color: rgba(15, 15, 15, 75%);
 }
 .logo:hover *{
-    color:#0f0;
+    color:#fff;
 }
 #logo{
+    border-radius: 50%;
     max-width: 60px;
     max-height: 60px;
 }
