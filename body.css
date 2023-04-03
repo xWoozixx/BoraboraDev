@@ -4,8 +4,9 @@
     align-items: center;
     text-align: center;
     top:15px;
-    font-size: 30px;
-    margin:10px;
+    font-size: 20px;
+    margin:0px;
+    margin-inline: 10px;
 }
 .titre_page a{
     transition: .1s;
@@ -15,14 +16,13 @@
     scale: 105%;
 }
 .titre_important{
-    font-size: 40px;
+    font-size: 50px;
 }
 .contenu{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
-    margin-top: 20px;
     margin-bottom: 90px;
     display: flex;
 }
@@ -33,7 +33,7 @@
     margin: 5px;
     border-radius: 50%;
     align-self: center;
-    justify-self: center;
+    justify-self: center;   
 }
 .carte_image{
     display: flex;
