@@ -116,6 +116,17 @@ a.paragraphe:hover{
     padding:10px;
     z-index: 1;
 }
+.paragraphe_important div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragraphe_important div > img{
+    margin-right: 30px;
+}
+.paragraphe_important div > p{
+    margin-right: 30px;
+}
 .paragraphe_important > h2{
     color: #0ff;
     transition: 0.2s;
@@ -125,7 +136,7 @@ a.paragraphe:hover{
 .paragraphe_important > p{
     font-size: 20px;
 }
-.paragraphe_important > li{
+.paragraphe_important ul li{
     font-size: 20px;
 }
 .paragraphe_important > a{
