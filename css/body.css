@@ -55,8 +55,8 @@
     border: 3px solid #fff;
     width: 35em;
     height: 15em;
-    margin-block: 3.3px;
-    margin-inline: 7.5px;
+    margin-block: 3px;
+    margin-inline: 7px;
     padding:10px;
     z-index: 1;
 }
@@ -111,8 +111,8 @@ a.paragraphe:hover{
     border: 3px solid #0f0;
     width: 35em;
     height: 15em;
-    margin-block: 3.3px;
-    margin-inline: 7.5px;
+    margin-block: 3px;
+    margin-inline: 7px;
     padding:10px;
     z-index: 1;
 }
