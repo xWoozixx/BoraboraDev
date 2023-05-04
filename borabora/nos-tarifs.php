@@ -69,7 +69,40 @@ $nb_categories = count($prix_par_categorie);
           </ul>
         </div>
       </div>
-      
+      <!--=Le SPA=-->
+
+<?php // Exécution d'une requête, on récupère toutes les prestations de spa disponibles
+$requete = "SELECT lib_soin, duree, prix_soin FROM spa;";
+$resultat = mysqli_query($cnx, $requete) or die(mysqli_error($cnx)); // or die() est pour la détection des erreurs
+
+// On rempli un tableau à une dimension à partir du résultat de la requête
+$prix_par_prestation = array();
+while ($enregistrement = mysqli_fetch_assoc($resultat)) {
+  $prix_par_prestation[] = array(
+    'libelle' => $enregistrement['lib_soin'],
+    'duree' => $enregistrement['duree'],
+    'prix' => $enregistrement['prix_soin']
+  );
+}
+
+// On récupère le nombre de prestations pour gérer l'affichage par colonnes
+$nb_prestations = count($prix_par_prestation);
+?>
+<div class="grid_12 box-1">
+    <img src="img/page1-img2.png" alt="Picto" />
+    <div class="extra-wrap">
+      <h2>LE SPA</h2>
+      <ul class="list-1">
+        <?php for ($i=0; $i<$nb_prestations; $i++) { ?>
+        <li><?php echo $prix_par_prestation[$i]['libelle'] .' Durée : '. $prix_par_prestation[$i]['duree'].' min => '. $prix_par_prestation[$i]['prix'] ?></li>
+        <?php } ?>
+      </ul>
+    </div>
+  </div>
+
+
+<!--=Affichage vide
+
       <div class="grid_12 box-1">
         <img src="img/page1-img2.png" alt="Picto" />
         <div class="extra-wrap">
@@ -84,8 +117,9 @@ $nb_categories = count($prix_par_categorie);
           </ul>
         </div>
       </div>
-      
+=-->
       <!--==============================Méthode 2================================-->
+      <!--====
       <div class="grid_12 box-2 pad-1">
         <div>
           <p class="text-3">LE BAR</p>
@@ -157,7 +191,7 @@ $nb_categories = count($prix_par_categorie);
       
       <div class="clear"></div>
     </div>
-  </section>
+  </section>====-->
   
 <!--==============================footer=================================-->
   <?php include_once 'include/footer.php' ?>

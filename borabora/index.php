@@ -78,17 +78,17 @@
         <div class="box-3">
           <div>
             <img src="img/spa.jpg" alt="Spa" class="img-border size-1" />
-            <a href="/nos-prestations.php#spa" class="link-2">Spa</a>
+            <a href="nos-prestations.php#spa" class="link-2">Spa</a>
             <p>Avec piscine intérieure chauffée, sauna, jacuzzi</p>
           </div>
           <div>
             <img src="img/golf.jpg" alt="Golf" class="img-border size-1" />
-            <a href="/nos-prestations.php#golf" class="link-2">Golf</a>
+            <a href="nos-prestations.php#golf" class="link-2">Golf</a>
             <p>1 parcours de golf 15 trous</p>
           </div>
           <div class="last">
             <img src="img/seminaire.jpg" alt="Séminaires / Mariages" class="img-border size-1" />
-            <a href="/nos-prestations.php#seminaires" class="link-2">Séminaires / Mariages</a>
+            <a href="nos-prestations.php#seminaires" class="link-2">Séminaires / Mariages</a>
             <p>Des salles et salons adaptables à vos besoins</p>
           </div>
         </div>
