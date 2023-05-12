@@ -94,7 +94,7 @@ h1 {display:inline-block; z-index:1111; margin:16px 0px 0 10px; position:relativ
 nav {display:inline-block; z-index:1111; position:relative; float:right;}
 
 
-ul.menu {margin:28px 10px 0px 0px; display:inline-block;}
+ul.menu {margin:26px 10px 0px 0px; display:inline-block;}
 ul.menu li {float:left; line-height:30px; margin:0px 0px 0px 20px;}
 ul.menu li:hover, ul.menu li.current {}
 ul.menu li a {font-size:25px; line-height:30px; color:#f2f2f2; display:inline-block; }
@@ -151,3 +151,15 @@ footer p {float:left; text-align:center; width:580px; }
 #form label {position:relative;overflow:hidden;display: block;min-height:35px;}
 .btns {text-align:left; width:300px; padding-top:15px;}
 .btns a {display:inline-block; margin:0 4px 0 20px;}
+
+
+
+/**********************New CSS**********************/
+
+.seConnecter{
+	position: absolute;
+	right: -300px;
+}
+p.loginform{
+	scale: 200%;
+}

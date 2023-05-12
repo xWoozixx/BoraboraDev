@@ -16,15 +16,18 @@
           <li<?php echo $_SERVER['SCRIPT_NAME'] == '/nos-tarifs.php' ? ' class="current"' : '' ?>>
             <a href="nos-tarifs.php">Nos tarifs</a>
           </li>
-          <li<?php echo $_SERVER['SCRIPT_NAME'] == '/products.php' ? ' class="current"' : '' ?>>
-            <a href="#">Calendrier</a>
+          <li<?php echo $_SERVER['SCRIPT_NAME'] == '/calendrier.php' ? ' class="current"' : '' ?>>
+            <a href="calendrier.php">Calendrier</a>
           </li>
           <li<?php echo $_SERVER['SCRIPT_NAME'] == '/contacts.php' ? ' class="current"' : '' ?>>
             <a href="#">Contacts</a>
           </li>
+          <li><a class="seConnecter" href="se-connecter.php">Se Connecter</a>
+        </li>
         </ul>
       </nav>
       <div class="clear"></div>
+      
     </div>
   </div>
 </header>
